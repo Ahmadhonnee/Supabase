@@ -1,0 +1,143 @@
+.dashboard{
+    margin-top: 200px;
+    min-width: 1280px;
+    &__sec{
+        display: flex;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #E0E0E0;
+    }
+    &__desc2{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .manage{
+        width: 600px;
+        &__nav{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 70px;
+            padding: 15px 0;
+        }
+        &__image{
+            width: 100%;
+            height: 400px;
+            background: url(../img/filepreview.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: block;
+        }
+        &__btn{
+            background: #2A2A2A;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 16px;
+            text-align: center;
+            color: #FFFFFF;
+            box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+            border-radius: 4px;
+        }
+    }
+    .app{
+        margin-top: 90px;
+        width: 400px;
+        margin-left: auto;
+        &__heading{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+        &__p1{
+            margin-top: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #E0E0E0;
+        }
+        &__p2{
+            margin-top: 40px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+        &__example{
+            padding: 30px 20px;
+            background: #1F1F1F;
+            border-radius: 4px 4px 0px 0px;
+            width: 100%;
+        }
+        &__title{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+        &__desc1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            color: #E0E0E0;
+            margin: 17px 0;
+        }
+        &__logo{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        &____desc2{
+            font-style: normal;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #E0E0E0;
+        }
+        &__icon{
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            background: url(../img/logocircle.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .js{
+            &__btn{
+                background: #1374EF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: fit-content;
+                padding: 10px 10px;
+                position: relative;
+                &__line{
+                    display: inline-block;
+                    width: 2px;
+                    height: 33px;
+                    background: #1269D3;
+                    position: absolute;
+                    top: 0px;
+                    left: 30%;
+                }
+            }
+        }
+    }
+}

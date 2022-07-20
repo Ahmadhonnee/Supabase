@@ -1,0 +1,33 @@
+.header{
+    padding: 20px 0;
+    &__navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1280px;
+        padding: 0 40px;
+    }
+    &__nav{
+        display: flex;
+        gap: 45px;
+        &__item{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #EEEEEE;
+        }
+    }
+    &__register{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        &>a{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #EEEEEE;
+        }
+    }
+}

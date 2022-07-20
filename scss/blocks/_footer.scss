@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    &__logos{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    &__menu{
+        display: flex;
+        gap: 90px;
+    }
+    .menu{
+        &__item{
+            li{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #EEEEEE;
+            }
+            &:first-child{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #f00000;
+
+            }
+        }
+
+    }
+}

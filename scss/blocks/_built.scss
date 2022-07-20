@@ -1,0 +1,23 @@
+.built{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    &__h2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        color: #BBBBBB;
+        &__wh{
+            color: #FFFFFF;
+        }
+    }
+    &__btn{
+        margin-top: 50px;
+    }
+}
