@@ -1,10 +1,43 @@
 .footer{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    min-width: 1000px;
+    padding: 100px 0px;
+    &__top{
+        display: flex;
+        gap: 200px;
+        padding: 0 0 60px 0;
+        max-width: 1000px;
+        margin: 0 auto;
+        border-bottom: 2px solid #2A2A2A;
+    }
+    &__bottom{
+        display: flex;
+        gap: 748px;
+        padding: 30px 0 0 0;
+        max-width: 1000px;
+        margin: 0 auto;
+        &>a{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #666666;
+        }
+        &__mode{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
     &__logos{
         display: flex;
         flex-direction: column;
         gap: 35px;
+    }
+    &__media{
+        display: flex;
+        gap: 25px;
     }
     &__menu{
         display: flex;
@@ -18,14 +51,14 @@
                 font-size: 14px;
                 line-height: 20px;
                 color: #EEEEEE;
+                opacity: 0.8;
+                padding: 5px 0;
+                
             }
-            &:first-child{
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 20px;
-                color: #f00000;
-
+            &__1{
+                &>a{
+                    color: #666666;
+                }
             }
         }
 
